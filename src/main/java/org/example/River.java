@@ -18,4 +18,8 @@ public class River {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void measureDepth() {
+        System.out.println("The depth of the river '" + name + "' is 15 meters.");
+    }
 }

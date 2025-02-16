@@ -18,4 +18,8 @@ public class Bridge {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void inspect() {
+        System.out.println("Inspection of bridge: '" + name + "' - condition is ok.");
+    }
 }
