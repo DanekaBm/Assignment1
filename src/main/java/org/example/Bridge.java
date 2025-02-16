@@ -8,7 +8,7 @@ public class Bridge {
     private String name;
 
     public void connect() {
-        System.out.println(name + " соединяет берега реки.");
+        System.out.println(name + " connects the river banks..");
     }
 
     public String getName() {
