@@ -8,7 +8,7 @@ public class River {
     private String name;
 
     public void flow() {
-        System.out.println(name + " течет под мостом.");
+        System.out.println(name + " flows under the bridge.");
     }
 
     public String getName() {
